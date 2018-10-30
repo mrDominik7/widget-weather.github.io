@@ -1,0 +1,17 @@
+<div class="teddy-bear">
+    <div class="teddy-text">
+        <h4>{{!Data ? "Be the part of sunny Spain": Data.title}}</h4>
+        <span class="w-line"> </span>
+        <img src="{{!Data ? '../../assets/images/aguamarina.png':Data.images}}" alt="" class="img-responsive">
+    </div>
+    <div class="teddy-follow">
+        <ul>
+            <li class="folw-h"><h3>{{!Data ? 345 : Data.followers}}</h3>
+                <p>Followers</p>
+            </li>
+            <li><h3>{{!Data ? 2567 : Data.following}}</h3>
+                <p>Following</p>
+            </li>
+        </ul>
+    </div>
+</div>

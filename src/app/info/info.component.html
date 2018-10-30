@@ -1,0 +1,36 @@
+<div class="element-bg-img">
+    <img src="{{image}}" alt="" class="img-responsive">
+</div>
+<div class="element-left-bottom">
+    <div class="ele-strip">
+        <!--{{widgetData$ | async | json}}-->
+        <ul>
+            <li><a class="cursor" (click)="onClick(0)">Hotel</a></li>
+            <li><a class="cursor" (click)="onClick(1)">Fishing</a></li>
+            <!--<li><a href="#">Tours</a></li>-->
+            <!--<li class="anc-bor"><a href="#">Weather</a></li>-->
+        </ul>
+    </div>
+    <div class="village">
+        <h3>Righteous indignation & like</h3>
+        <span class="line"> </span>
+        <div class="activity_box">
+            <div class="scrollbar" id="style-2">
+                <div class="activity-row">
+                    <div class="activity-desc">
+                        <h5>Resort Address</h5>
+                        <p>{{addressValue}}</p>
+                        <h6>Tel: +380{{telephoneNumber}}</h6>
+                    </div>
+                    <div class="activity-img">
+                        <ul>
+                            <li><img src='../../assets/images/res.jpg' alt=""/></li>
+                            <li><img src='../../assets/images/r1.jpg' alt=""/></li>
+                        </ul>
+                    </div>
+                    <div class="clear"></div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
